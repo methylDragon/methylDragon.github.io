@@ -161,7 +161,7 @@ header {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  background-position: center;
+  background-position: right;
   background-image: url('../img/header.png');
   text-align: center;
   color: white;
