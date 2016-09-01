@@ -17,6 +17,11 @@ hr {
   border-width: 3px;
   max-width: 50px;
 }
+.strokeme {
+	text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+			  	 #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+    -webkit-font-smoothing: antialiased;
+}
 .link-img {
 	max-width: 100%;
 	height: auto;
