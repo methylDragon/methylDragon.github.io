@@ -47,6 +47,16 @@
 
 <body id="page-top">
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -263,7 +273,9 @@
         <div class="container text-center">
             <div class="call-to-action">
                 <h2>Thanks for visiting my page! Spread the word!</h2>
-                 <a class="btn btn-default btn-xl sr-button" href="#page-top">Go to top</a>
+				<div class="fb-share-button" data-href="http://methyldragon.com" data-layout="button" data-size="large" data-mobile-iframe="false"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fmethyldragon.com%2F&amp;src=sdkpreparse">Share</a></div>
+                <br>
+				<a class="btn btn-default btn-xl sr-button" href="#page-top">Go to top</a>
             </div>
         </div>
     </aside>
@@ -278,12 +290,12 @@
 					<br>
 				</div>
 				<div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-money fa-3x sr-contact"></i>
+                    <a href="https://goo.gl/byHhOC" style="color: #222222"><i class="fa fa-money fa-3x sr-contact"></i></a>
 					<p><a href="https://goo.gl/byHhOC"><b>Tip Jar</b></a></p>
                 </div>
                 <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:your-email@your-domain.com"><b>methyldragon@gmail.com</b></a></p>
+                    <a href="mailto:methyldragon@gmail.com" style="color: #222222"><i class="fa fa-envelope-o fa-3x sr-contact"></i></a>
+                    <p><a href="mailto:methyldragon@gmail.com"><b>methyldragon@gmail.com</b></a></p>
 					<br>
 					<br>
                 </div>
