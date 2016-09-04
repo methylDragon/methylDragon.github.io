@@ -429,7 +429,11 @@ body {
 }
 
 @media screen and (max-width: 700px) {
-    a {
+	header {
+		background-position: middle;
+		background-image: url('../img/headersmall.png');
+	}
+	a {
         font-size: 12px;
     }
     p {
