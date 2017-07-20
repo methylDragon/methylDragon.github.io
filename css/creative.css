@@ -167,7 +167,11 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: right;
-  background-image: url('../img/ded.jpg');
+<<<<<<< HEAD
+  background-image: url('../img/header.png');
+=======
+  background-image: url('../img/header.png');
+>>>>>>> parent of 3addef7... No more hackerman :(
   text-align: center;
   color: white;
 }
